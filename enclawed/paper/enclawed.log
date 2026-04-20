@@ -1,0 +1,670 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.25)  17 APR 2026 21:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**enclawed.tex
+(./enclawed.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen149
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks22
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks23
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks24
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks26
+\verbatim@line=\toks27
+\verbatim@in@stream=\read2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count276
+\rotFPtop=\skip53
+\rotFPbot=\skip54
+\rot@float@box=\box53
+\rot@mess@toks=\toks28
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 29
+.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box54
+)
+(./enclawed.aux)
+\openout1 = `enclawed.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count278
+\scratchdimen=\dimen160
+\scratchbox=\box55
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen161
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks30
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+1.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+1.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+31.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+31.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+1.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-ec.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+28.
+
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (5.29562pt too wide) in paragraph at lines 131--137
+[]\T1/lmr/m/it/10.95 Cloud LLM API us-age \T1/lmr/m/n/10.95 routes reg-u-lated 
+con-tent through third par-ties whose data-processing
+ []
+
+[2{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 223.
+ [3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 324.
+ [4]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 396.
+
+Underfull \hbox (badness 5217) in paragraph at lines 398--398
+[]\T1/lmr/bx/n/9 Primary prop-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+[]\T1/lmr/m/n/9 integrity via
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+[]\T1/lmr/m/n/9 overengineered for chat-
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 404--404
+\T1/lmr/m/n/9 mediated AI; as-sumes app-
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 404--405
+[]\T1/lmr/m/n/9 inspires the roll-back
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 406--406
+[]\T1/lmr/m/n/9 dynamic conflict-
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 406--406
+[]\T1/lmr/m/n/9 sector-specific (fi-nan-cial); or-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]\T1/lmr/m/n/9 general ex-pres-
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 410--410
+[]\T1/lmr/m/n/9 role-based au-tho-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+[]\T1/lmr/m/n/9 rejected as pri-mary
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 412--412
+[]\T1/lmr/m/n/9 attribute ex-pres-
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 412--413
+[]\T1/lmr/m/n/9 adopted within com-
+ []
+
+
+Overfull \hbox (58.09595pt too wide) in paragraph at lines 396--421
+ [][] 
+ []
+
+[5] [6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 564.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 564.
+
+Overfull \hbox (1.0819pt too wide) in paragraph at lines 568--568
+[]\T1/lmr/m/n/10 Channel/provider/host
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
+[]\T1/lmr/m/n/10 Signer-clearance ap-
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 576--576
+[]\T1/lmr/m/n/10 Trust root mu-ta-tion
+ []
+
+[7] [8]
+Overfull \hbox (6.01791pt too wide) in paragraph at lines 627--636
+\T1/lmr/m/n/10.95 The frame-work is de-liv-ered in two par-al-lel sur-faces: a 
+Type-Script (TS) twin un-der \T1/lmtt/m/n/10.95 src/enclawed/
+ []
+
+
+Overfull \hbox (3.37273pt too wide) in paragraph at lines 627--636
+\T1/lmr/m/n/10.95 that bun-dles with the up-stream Open-Claw build, and a canon
+-i-cal ref-er-ence un-der \T1/lmtt/m/n/10.95 enclawed/src/
+ []
+
+[9]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 657.
+ [10{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}]
+Overfull \hbox (14.12842pt too wide) in paragraph at lines 732--738
+\T1/lmr/m/n/10.95 par-al-lel emit-ters (e.g. the egress-guard \T1/lmtt/m/n/10.9
+5 onDeny \T1/lmr/m/n/10.95 call-back rac-ing with \T1/lmtt/m/n/10.95 createSubs
+ystemLogger\T1/lmr/m/n/10.95 )
+ []
+
+
+Overfull \hbox (8.75247pt too wide) in paragraph at lines 786--798
+\T1/lmr/m/n/10.95 US-gov merged), \T1/lmtt/m/n/10.95 us-government \T1/lmr/m/n/
+10.95 (UN-CLAS-SI-FIED to TOP SE-CRET//SCI), \T1/lmtt/m/n/10.95 healthcare-hipa
+a
+ []
+
+
+Overfull \hbox (14.19731pt too wide) in paragraph at lines 786--798
+\T1/lmr/m/n/10.95 (PHI / Sensitive-PHI / Research-Embargoed), \T1/lmtt/m/n/10.9
+5 financial-services \T1/lmr/m/n/10.95 (MNPI / Privileged-Counsel),
+ []
+
+[11]
+Overfull \hbox (19.48708pt too wide) in paragraph at lines 854--864
+[]\T1/lmr/m/n/10.95 The \T1/lmtt/m/n/10.95 HitlController \T1/lmr/m/n/10.95 mai
+n-tains the ses-sion reg-istry, the ap-proval queue, and a \T1/lmtt/m/n/10.95 s
+topAll(reason)
+ []
+
+[12]
+Overfull \hbox (37.06442pt too wide) in paragraph at lines 926--937
+\T1/lmr/m/n/10.95 the pre-vi-ous block's hash, and an Ed25519 bro-ker sig-na-tu
+re. \T1/lmtt/m/n/10.95 verifyChain(brokerPublicKeyPem)
+ []
+
+[13] [14]
+Underfull \hbox (badness 1975) in paragraph at lines 1051--1051
+[]\T1/lmr/m/n/10.95 Table 6: Built-in clas-si-fi-ca-tion schemes (col-umn head-
+ers are scheme ids; rank-4 of
+ []
+
+[15]
+Overfull \hbox (14.62656pt too wide) in paragraph at lines 1114--1116
+[]\T1/lmtt/m/n/10.95 stripBidi \T1/lmr/m/n/10.95 re-moves the Uni-code bidirect
+ional-override range U+202A--U+202E and U+2066--
+ []
+
+
+Overfull \hbox (25.85208pt too wide) in paragraph at lines 1116--1118
+[]\T1/lmtt/m/n/10.95 stripZeroWidth \T1/lmr/m/n/10.95 re-moves the zero-width c
+har-ac-ters U+200B--U+200D, U+2060, and U+FEFF. 
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 1164--1165
+[]\T1/lmr/m/n/10 enclaved/open de-faults, al-lowlist en-
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 1182--1183
+\T1/lmr/m/n/10 pause/resume/stop, ap-proval queue,
+ []
+
+
+Overfull \hbox (5.35464pt too wide) in paragraph at lines 1154--1193
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 1209--1210
+[]\T1/lmr/m/n/10 in-place edit, tail trun-ca-tion (doc-u-mented
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 1213--1214
+[]\T1/lmr/m/n/10 hostname case nor-mal-iza-tion, Host-header
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 1213--1214
+\T1/lmr/m/n/10 spoof-ing, em-bed-ded cre-den-tials, IPv4-in-
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 1213--1214
+\T1/lmr/m/n/10 IPv6, file:/data: schemes, fetch re-as-sign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1216
+[]\T1/lmr/m/n/10 setTrustRoot af-ter lock,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1216
+\T1/lmtt/m/n/10 __proto__\T1/lmr/m/n/10 /constructor pol-lu-tion, du-pli-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1216
+\T1/lmr/m/n/10 cate nor-mal-ized names, non-contiguous
+ []
+
+
+Overfull \hbox (7.07909pt too wide) in paragraph at lines 1242--1246
+[]\T1/lmtt/m/n/10.95 classification.makeLabel \T1/lmr/m/n/10.95 --- com-part-me
+nts backed by \T1/lmtt/m/n/10.95 Set \T1/lmr/m/n/10.95 were mu-ta-ble through \
+T1/lmtt/m/n/10.95 .add()
+ []
+
+[16]
+Overfull \hbox (4.27658pt too wide) in paragraph at lines 1256--1260
+[]\T1/lmtt/m/n/10.95 trust-root \T1/lmr/m/n/10.95 --- post-boot \T1/lmtt/m/n/10
+.95 setTrustRoot \T1/lmr/m/n/10.95 could sub-sti-tute attacker-controlled sign-
+ers. Fixed
+ []
+
+[17]
+Overfull \hbox (32.40994pt too wide) in paragraph at lines 1262--1266
+[]\T1/lmtt/m/n/10.95 egress-guard \T1/lmr/m/n/10.95 --- \T1/lmtt/m/n/10.95 glob
+alThis.fetch \T1/lmr/m/n/10.95 re-as-sign-ment could by-pass the guard. Added \
+T1/lmtt/m/n/10.95 freeze:true\T1/lmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (59.2321pt too wide) in paragraph at lines 1262--1266
+\T1/lmr/m/n/10.95 which sets the prop-erty via \T1/lmtt/m/n/10.95 Object.define
+Property \T1/lmr/m/n/10.95 with \T1/lmtt/m/n/10.95 writable:false \T1/lmr/m/n/1
+0.95 and \T1/lmtt/m/n/10.95 configurable:false\T1/lmr/m/n/10.95 . 
+ []
+
+[18]
+Overfull \hbox (12.76051pt too wide) in paragraph at lines 1295--1301
+\T1/lmr/m/n/10.95 write-down for-mu-la-tion en-clawed im-ple-ments. Operating-s
+ystem mandatory-access-control (MAC)
+ []
+
+
+Overfull \hbox (0.4324pt too wide) in paragraph at lines 1302--1308
+\T1/lmr/m/n/10.95 and Ribeiro [21] cat-a-logued early at-tack pat-terns; Schul-
+hoff et al. [22] demon-strated competition-
+ []
+
+
+Overfull \hbox (5.1337pt too wide) in paragraph at lines 1347--1351
+[]\T1/lmr/m/it/10.95 Key man-age-ment. \T1/lmr/m/n/10.95 Re-place passphrase pa
+-ram-e-ters with HSM-backed key ref-er-ences (Public-
+ []
+
+[19]
+Overfull \hbox (13.43489pt too wide) in paragraph at lines 1416--1424
+[]\T1/lmr/bx/n/10.95 Closed ex-ten-sions (\T1/lmtt/b/n/10.95 enclawed-enclaved\
+T1/lmr/bx/n/10.95 , pri-vate repos-i-tory): \T1/lmr/m/n/10.95 The zero-trust bl
+ockchained
+ []
+
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1600
+[]\T1/lmr/m/n/10.95 OWASP Foun-da-tion. \T1/lmr/m/it/10.95 OWASP Top 10 for Lar
+ge Lan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1600
+\T1/lmr/m/it/10.95 guage Model Ap-pli-ca-tions\T1/lmr/m/n/10.95 , 2025 edi-tion
+. $\T1/lmtt/m/n/10.95 https : / / owasp . org /
+ []
+
+[22] [23] [24] (./enclawed.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3956 strings out of 476182
+ 57918 string characters out of 5795595
+ 1957975 words of memory out of 5000000
+ 25874 multiletter control sequences out of 15000+600000
+ 643578 words of font info for 100 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 57i,11n,65p,620b,372s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on enclawed.pdf (24 pages, 494273 bytes).
+PDF statistics:
+ 183 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

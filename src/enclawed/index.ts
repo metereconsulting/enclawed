@@ -1,0 +1,20 @@
+export * as classification from "./classification.js";
+export * as classificationScheme from "./classification-scheme.js";
+export * as policy from "./policy.js";
+export * as egress from "./egress-guard.js";
+export * as audit from "./audit-log.js";
+export * as dlp from "./dlp-scanner.js";
+export * as crypto from "./crypto-fips.js";
+export * as zeroize from "./zeroize.js";
+export * as flavor from "./flavor.js";
+export * as moduleManifest from "./module-manifest.js";
+export * as moduleSigning from "./module-signing.js";
+export * as moduleLoader from "./module-loader.js";
+export * as trustRoot from "./trust-root.js";
+export { lockTrustRoot, isTrustRootLocked, TrustRootLockedError } from "./trust-root.js";
+export * as hitl from "./hitl.js";
+export * as transactionBuffer from "./transaction-buffer.js";
+// zeroTrustKeyBroker is shipped in the closed-source enclawed-enclaved tree;
+// see ../../../enclawed-enclaved/src/enclawed-secure/zero-trust-key-broker.ts.
+export * from "./bootstrap.js";
+export * from "./runtime.js";
