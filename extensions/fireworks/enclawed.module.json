@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "fireworks",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "y3NoP3eg4KWbFu97fDpMm3LdTDJuMfNWJ87J7du5o/EYt1mF53sUy4o6o6VACQ+N63A9yLOOHg/OO8e9bE7HBQ=="
+}

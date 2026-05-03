@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "amazon-bedrock",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "kgdYySbt3xn04LVtLI4RGvJJwuMqJTeNEnp1ID1UUgUgs0QIQWBT7SkPmR9Cws5Y/4n76cZCDIWTiy1gWwwMDg=="
+}

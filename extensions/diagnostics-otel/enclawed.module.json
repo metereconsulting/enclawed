@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "diagnostics-otel",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "eXPf/IcYIJs3QwNFdTMJgXWKal4N0OpMwmqZKDdEzjJuQj9JHwwJBxkchzMXD1QZXL9L0tj3d/wOXaCYOlLSBw=="
+}

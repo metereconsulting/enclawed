@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "diffs",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "KY1ub/qVDMU+U+HPeWULiAu8RaNWD+iDnUTeCBBdIzq8WtkGWNfvsFg+QC6+COXcxt7+nPStCmebJ/082AgFDg=="
+}

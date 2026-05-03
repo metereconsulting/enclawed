@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "signal",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "publish"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "BS+CtCrhUcsJmaDeT71Bwdzck402fPzh4cUlxbdYWuVWzt9BcutR39En2CDqoGBStTX6taDogKDrUdygMJPbBg=="
+}

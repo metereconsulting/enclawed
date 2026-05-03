@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "nextcloud-talk",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "publish"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "6cvTcolRNHaKpwLtbtoL5mkb0XyfDhuKlvbDpMz+7JxjoCnfhU3RGaCHEz0xGzjmoDFtaptydLk4WuwRw3yvAA=="
+}

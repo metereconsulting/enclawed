@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "microsoft-foundry",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "VZl09U8/m/6l7iiFcZiBtevmSgGVLEPDIWVprR5TL3LP1ho2zGgazUGiy/oeOzhv5wloOdohwvXrLDGiQ0B8Cg=="
+}

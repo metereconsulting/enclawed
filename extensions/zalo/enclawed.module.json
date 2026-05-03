@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "zalo",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "publish"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "vqIAtZ0h31s7oA5rE+484jV4Ze1yZlYrbj1LTB1y6CsC3GyQlEASUYjAVTRwUw9+k5Sk1UFynX+AOco2WDTTAA=="
+}

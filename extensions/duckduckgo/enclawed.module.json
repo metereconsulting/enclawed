@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "duckduckgo",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "rwPwxppCPX8P4eJez4Oz5FdqpJyUi3kb+2PkaysbK+mslEjPfvw7Le0+jH8qlFxdrPT2MWNvVa6Tb2ihZSQdCA=="
+}

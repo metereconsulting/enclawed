@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "google-meet",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "PIhl66iKtVPUdqCffdllzw7m4DA7vkN6TKP0wu10D71/rgnXCSVnmqbz7FWYr3Og/YvoFarNXQIlZfgTx76BDA=="
+}

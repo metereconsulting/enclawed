@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "zalouser",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "publish"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "dXu5acrUmIqZ6oqpVFYsbOVDZJ/K5wuTnRC7umIjZES/D7vP7o+y7j2QGwbJLhaBsLgWLD4+29kemBd3V8wLAQ=="
+}

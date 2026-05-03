@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "acpx",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "KD6JwOvjN3HHjhqjW6IcuNoETteaNRmjHSLb4umdq8dqFH05ftmxuM3UjMDaNPn9/2ZbsYDU2TP+M5wAHoekCg=="
+}

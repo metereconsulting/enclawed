@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "open-prose",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "iUyURjCyZEdeAj7xVKv9iYfuOV1od7wn3s+YO/0COpj68xzGYXNx+m42H6/D66JvIaaNy+ymsXJLNHwOY2jqDg=="
+}

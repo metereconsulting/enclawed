@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "slack",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "publish"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "+Z29K0FXnP5IxuPW6z0B8VHL/GPyX021y6jNDCJvAtKvST9LnkwdZTFxJABIWXglJTbeFKvyMYLU+B/Tbr/4Aw=="
+}

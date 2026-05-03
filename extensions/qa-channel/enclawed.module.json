@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "qa-channel",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "publish"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "IcgT+c3sqiUqqLKSmVj/F80EYFjbX37uAo7+cBB261TR2jOj+to0yJ/qQ5CG+IRkbrz+vQa2xJ4j5biBn4w6BA=="
+}

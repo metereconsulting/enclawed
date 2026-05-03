@@ -1,0 +1,142 @@
+\relax 
+\citation{Metere2026enclawed}
+\citation{OpenClaw}
+\citation{Metere2026enclawed}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}\protected@file@percent }
+\citation{OWASP_A01_2021}
+\citation{IBM_CostOfBreach_2024}
+\citation{Mandiant_MTrends_2024}
+\newlabel{sec:def-obsolescence}{{1}{2}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Definition (architectural obsolescence).}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stakes.}{2}{}\protected@file@percent }
+\citation{Metere2026enclawed}
+\citation{Metere2026enclawed}
+\@writefile{toc}{\contentsline {paragraph}{Coverage scope.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Extension parity, including the previously-unsafe set (new in this paper).}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Contributions.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}The F1--F4 failure-mode taxonomy}{3}{}\protected@file@percent }
+\newlabel{sec:f}{{2}{3}{}{}{}}
+\citation{Metere2026enclawed}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Intuition}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Formal statement}{4}{}\protected@file@percent }
+\newlabel{eq:S-projection}{{1}{4}{}{}{}}
+\newlabel{eq:check}{{2}{4}{}{}{}}
+\citation{Metere2026enclawed}
+\citation{OpenClaw}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The four biconditional failure modes (paper~§5).}}{5}{}\protected@file@percent }
+\newlabel{tab:fmodes}{{1}{5}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Threat model}{5}{}\protected@file@percent }
+\newlabel{sec:threat-model}{{3}{5}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}The three subjects}{5}{}\protected@file@percent }
+\newlabel{sec:subjects}{{4}{5}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{OpenClaw (upstream).}{5}{}\protected@file@percent }
+\citation{Metere2026enclawed}
+\@writefile{toc}{\contentsline {paragraph}{enclawed-oss.}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{enclawed-enclaved.}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Empirical primitive availability}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Methodology}{6}{}\protected@file@percent }
+\newlabel{sec:methodology}{{5}{6}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Empirical detection-primitive availability per subject. The probe walked 14{,}419 upstream files and found zero matches for any of the seven canonical symbols on OpenClaw.}}{7}{}\protected@file@percent }
+\newlabel{tab:primitive-presence}{{2}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Statistical adversarial harness}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Safety envelope}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Sample sources: template synthesis vs.\ LLM generation}{8}{}\protected@file@percent }
+\newlabel{sec:sample-sources}{{5.3}{8}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Template synthesis (default).}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{LLM generation (opt-in).}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Why both.}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}F-category instantiation}{8}{}\protected@file@percent }
+\citation{Wilson1927}
+\citation{McNemar1947}
+\@writefile{toc}{\contentsline {paragraph}{Backends.}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Statistical methodology}{9}{}\protected@file@percent }
+\newlabel{sec:stat-methodology}{{5.5}{9}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Confidence intervals.}{9}{}\protected@file@percent }
+\newlabel{eq:wilson}{{3}{9}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Sample-size justification.}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Paired comparison: McNemar's test.}{9}{}\protected@file@percent }
+\newlabel{eq:mcnemar}{{4}{9}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Random seeding and replay.}{9}{}\protected@file@percent }
+\citation{enclawedRepo}
+\@writefile{toc}{\contentsline {paragraph}{Hardware fingerprint.}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Inferential reach of the template stress test.}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Reproducibility}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{10}{}\protected@file@percent }
+\newlabel{sec:results}{{6}{10}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Confusion-matrix legend.}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Reference baseline: regex template path}{11}{}\protected@file@percent }
+\newlabel{sec:results-baseline}{{6.1}{11}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1}Headline (baseline, $n=1600$)}{11}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces \textbf  {REFERENCE BASELINE.} Headline confusion-matrix recall per subject per F-category, template-synthesized samples ($n=200$ per cell, 100 legit + 100 adversarial, aggregated across both Discord and Telegram channels, $n=1600$ total). For both hardened subjects, precision = recall = F1 = accuracy = 1.000 in every cell; we report the F1 score for brevity. Total wall-clock for the full pass: 42.2~seconds. This is the gate's coverage of its design distribution; the generalization claim is in \S  \ref {sec:results-generalization}.}}{11}{}\protected@file@percent }
+\newlabel{tab:headline}{{3}{11}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Per-channel decomposition.}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.2}Stress-test extension at $n = 80{,}000$ template samples (baseline)}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Generalization: LLM-emitted path}{11}{}\protected@file@percent }
+\newlabel{sec:results-generalization}{{6.2}{11}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces \textbf  {REFERENCE BASELINE, stress-test extension.} Per-subject results at $n = 10{,}000$ legit + $10{,}000$ adversarial per (channel, F-category) cell on the Telegram channel ($n=80{,}000$ total). The Wilson 95\% upper bound on the per-cell FPR at $k=0$ false positives and $n=10{,}000$ is $3.84 \times 10^{-4}$, which holds in every cell of the upper three rows (the secmon row is broken out separately). \emph  {enclawed-oss} and \emph  {enclawed-enclaved (content gate only)} are identical at this run (every cell matches): the F1--F4 contract is identical at the content layer, and McNemar's test on the pair returns $\chi ^2 = 0$ on the disagreement counts. \emph  {enclawed-enclaved (full stack)} additionally runs the secmon behavioral monitor; at burst-test rates secmon correctly identifies the harness's $\sim 250$~samples/sec firing rate as an anomalous traffic pattern (P-014, ``actor request rate $\geq 60$/min''), so its FP column is high. This is correct production behavior at non-production load and is reported separately so the F1--F4 content matrix is readable; at production rates the same detector would not fire on legit operational chatter. Wall-clock 927~seconds on i9-14900K single-thread, secmon engaged with bounded 64-actor pool, seed \texttt  {stress-headline-2026}.}}{12}{}\protected@file@percent }
+\newlabel{tab:n80k-stress}{{4}{12}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Independence of the cooperation classifier from the production gate.}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Cross-LLM stability of recall (generalization)}{12}{}\protected@file@percent }
+\newlabel{sec:cross-llm}{{6.2.1}{12}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces \textbf  {Cross-LLM recall stability for enclawed-oss (generalisation path).} For each failure mode, $N_{\mathrm  {LLM}}$ is the number of LLMs in the ten-LLM panel that produced at least 10 cooperated adversarial samples per F-category (refusals excluded by an independent classifier, \S  \ref {sec:stat-methodology}; non-cooperating LLMs are not ranked). Per-LLM recall is computed as (adversarial samples the gate blocked)~/~(adversarial samples the cooperation classifier flagged as adversarial-shaped); each value lies in $[0, 1]$. The four columns report the mean, standard deviation, minimum, and maximum of those per-LLM recalls across the $N_{\mathrm  {LLM}}$ cooperating LLMs. All four rows show mean recall $= 1.000$ at zero variance: every cooperated adversarial sample was blocked on every cooperating LLM. \emph  {enclawed-enclaved (content gate only)} is byte-identical to the table above (McNemar $\chi ^2 = 0$ on every pair) and is omitted; upstream OpenClaw reports recall $= 0.000$ on every (LLM, F-cat) cell and is also omitted. Per-LLM detail for F3 (where the live regex-widening exercise lands) is in Table~\ref {tab:perruntime-f3-silent}; F1, F2, F4 follow the same shape.}}{13}{}\protected@file@percent }
+\newlabel{tab:cross-llm}{{5}{13}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces \textbf  {GENERALIZATION, cooperation rates.} Per-LLM cooperation rate per F-category at $n = 200$ adversarial samples per cell ($100$ on each of two channels). The lower block lists rows that exhausted the cloud provider's free-tier rate quota during the run window and therefore have $n<10$ cooperated samples; their numbers are included for completeness but should not be ranked. F2\_FORGE is content-agnostic; non-100\% cooperation in that column on small-LLM rows reflects the refusal classifier rejecting refusal-shaped content the LLM emitted in lieu of a routine audit-line.}}{13}{}\protected@file@percent }
+\newlabel{tab:llm-coop}{{6}{13}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Baseline-side block reasons.}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Per-(source, runtime) consolidated table for F3}{14}{}\protected@file@percent }
+\newlabel{sec:perruntime-tables}{{6.2.2}{14}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces \textbf  {F3 (silent host failure) --- per-runtime detection per source.} \textbf  {Columns.} $n_{\mathrm  {adv}}$ is the number of adversarial samples the source contributed; $n_{\mathrm  {coop}}$ is the subset that an independent classifier flagged as adversarial-shaped (refusals excluded; \S  \ref {sec:stat-methodology}). \emph  {Recall} = (samples blocked by the gate) / $n_{\mathrm  {coop}}$; \emph  {FPR} (false-positive rate) = (legit samples wrongly blocked) / 100 per source. \textbf  {Cell format.} Each cell reports the point estimate followed by the Wilson 95\% confidence interval as \texttt  {<point> [<low>, <high>]}; ``--'' indicates $n_{\mathrm  {coop}}=0$ or $n_{\mathrm  {legit}}=0$ so the metric is undefined. CI width depends on $n_{\mathrm  {coop}}$: rows with low cooperation (e.g.\ \texttt  {OpenRouter llama-3.1-70b} at $n_{\mathrm  {coop}}=3$) carry wide intervals such as $[0.44, 1.00]$ even when every cooperated sample was blocked, and should not be ranked against high-$n$ rows. \textbf  {Rows.} The first row (separated by a horizontal rule) is the regex-template reference baseline (in-distribution by construction; cooperation = 100\%); subsequent rows are per-LLM cross-model generalisation. Upstream OpenClaw is a passthrough negative control, reports recall = FPR = 0 on every cell of every source by construction, and is omitted for compactness.}}{14}{}\protected@file@percent }
+\newlabel{tab:perruntime-f3-silent}{{7}{14}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.3}Improvability is the architectural property: a worked example of widening the F3 gate}{14}{}\protected@file@percent }
+\newlabel{sec:widening}{{6.2.3}{14}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{The change, validation, and gain.}{15}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Post-widening F3\_SILENT true-positive counts per cooperative Ollama LLM, Discord channel, $K=100$ per cell. Pre values are halved historical two-channel counts for fair per-channel comparison (\texttt  {docs/post-widening/AGGREGATE.md} carries the raw new run). ENC full-stack matches OSS byte-for-byte across all four LLMs (secmon does not fire on F3 cells under normal LLM throughput).}}{15}{}\protected@file@percent }
+\newlabel{tab:widening-gain}{{8}{15}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Why this is the obsolescence point, not a footnote.}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Cost and traffic}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Why this constitutes architectural obsolescence}{16}{}\protected@file@percent }
+\newlabel{sec:obsolescence}{{7}{16}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{0\% is qualitatively different from low.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stochastic LLM refusal is not a security primitive.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Compliance and safety follow.}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generalisation beyond OpenClaw.}{16}{}\protected@file@percent }
+\citation{Greshake2023indirect}
+\citation{Liu2024promptinjection}
+\citation{Metere2026enclawed}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Discussion}{17}{}\protected@file@percent }
+\newlabel{sec:discussion}{{8}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}LLM safety training is not a security boundary}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Scope of the F1--F4 contract}{17}{}\protected@file@percent }
+\newlabel{sec:scope}{{8.2}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Why FP = 0 is non-trivial: no functionality cost}{17}{}\protected@file@percent }
+\newlabel{sec:no-tradeoff}{{8.3}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}What the certified evolution adds beyond the OSS tier}{17}{}\protected@file@percent }
+\citation{Metere2026enclawed}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Reviewer-replayable evidence}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Threats to validity}{18}{}\protected@file@percent }
+\newlabel{sec:validity}{{9}{18}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{External: in-distribution templates vs.\ generalisation.}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{External: channel and LLM coverage.}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Construct: F2 is exercised behaviorally, not via content.}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Internal: ground-truth label leakage and template diversity.}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Internal: cooperation classifier independence.}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Internal: single-seed, single-channel widening run.}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Internal: cross-sample state leakage.}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{OpenClaw subject runs the upstream CLI per sample.}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}Limitations}{19}{}\protected@file@percent }
+\newlabel{sec:limitations}{{10}{19}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {11}Reproducibility}{19}{}\protected@file@percent }
+\citation{Metere2026enclawed}
+\citation{enclawedRepo}
+\bibcite{Metere2026enclawed}{1}
+\bibcite{OpenClaw}{2}
+\bibcite{enclawedRepo}{3}
+\bibcite{Wilson1927}{4}
+\bibcite{McNemar1947}{5}
+\bibcite{Greshake2023indirect}{6}
+\bibcite{Liu2024promptinjection}{7}
+\bibcite{OWASP_A01_2021}{8}
+\bibcite{IBM_CostOfBreach_2024}{9}
+\@writefile{toc}{\contentsline {section}{\numberline {12}Conclusion}{20}{}\protected@file@percent }
+\bibcite{Mandiant_MTrends_2024}{10}
+\gdef \@abspage@last{21}

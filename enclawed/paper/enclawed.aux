@@ -1,0 +1,130 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}The regulated-enterprise AI gap}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Why a configuration-only fix is insufficient}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Three design commitments}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Comparison with the broader landscape}{4}{}\protected@file@percent }
+\newlabel{sec:landscape}{{1.4}{4}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Landscape comparison. Properties documented as of the projects' publicly-stated features at time of writing; ``partial'' means the property is achievable but not enforced by the project itself, and ``N/A'' means the project is a different kind of artifact (library, component, model) rather than a hostable gateway and the column does not directly apply. enclawed is the only entry that combines all nine properties as a host-level framework around which the others can be composed.}}{5}{}\protected@file@percent }
+\newlabel{tab:landscape}{{1}{5}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Non-claim.}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Contributions.}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background and Threat Model}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Choice of access-control model}{6}{}\protected@file@percent }
+\newlabel{sec:bla-rationale}{{2.1}{6}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Access-control model survey. Bell-LaPadula is selected as the primary axis because the deployments enclawed targets are fundamentally confidentiality-driven (PHI, MNPI, CUI, embargoed research). Biba's integrity dual and Clark-Wilson's transaction discipline are complementary and inform §4.6 (rollback buffer); RBAC and ABAC are layered as compartment / releasability assignments rather than as the primary flow rule.}}{6}{}\protected@file@percent }
+\newlabel{tab:model-choice}{{2}{6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Bell-LaPadula formal model}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Threat model}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Out of scope}{7}{}\protected@file@percent }
+\newlabel{RF1}{8}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Control mapping. Each row links a framework surface to the corresponding requirement in seven major frameworks; CMMC L2/L3 inherits NIST 800-171 [4] and PCI DSS [9] adds Req.~3, 4, 7, 10, 11 alongside NIST 800-53. The deploying organization picks the column that fits its regime. (Rendered on a dedicated landscape page; cells use natural-width \texttt  {l} columns and the whole table is uniformly scaled to fill the page.)}}{8}{}\protected@file@percent }
+\newlabel{tab:controls}{{3}{8}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Flavor matrix. Both flavors run the same framework code; the distinction is enforcement strictness.}}{9}{}\protected@file@percent }
+\newlabel{tab:flavors}{{4}{9}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Architecture}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Two flavors}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Module set: cloud modules gated, not source-stripped}{9}{}\protected@file@percent }
+\newlabel{sec:moduleset}{{3.2}{9}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Runtime singleton and bootstrap}{9}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Code footprint of the open-source repository. The OSS tree is self-contained and fully buildable, testable, and publishable on its own.}}{10}{}\protected@file@percent }
+\newlabel{tab:loc}{{5}{10}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Implementation}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Repository layout.}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Hash-chained audit log}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Egress guard}{11}{}\protected@file@percent }
+\newlabel{sec:egress}{{4.2}{11}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Raw-socket layer.}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{VPN-only mode.}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Biconditional admission for net-capable extensions.}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limits.}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Configurable classification scheme}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}DLP scanner}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Human-in-the-loop control}{13}{}\protected@file@percent }
+\newlabel{sec:hitl}{{4.5}{13}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Secure transaction buffer with rollback}{13}{}\protected@file@percent }
+\newlabel{sec:tx}{{4.6}{13}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{Memory-bounded rollback window.}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Tamper-evident chain.}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Rollback semantics.}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Module Signing and Trust Root}{14}{}\protected@file@percent }
+\newlabel{sec:trust}{{5}{14}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Configurable Classification --- Worked Examples}{14}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Built-in classification schemes (column headers are scheme ids; rank-4 of \texttt  {healthcare-hipaa} is RESEARCH-EMBARGOED, abbreviated for table fit). Aliases such as \texttt  {q-cleared} $\equiv $ rank 4 of \texttt  {us-government} are accepted by \texttt  {parse()} and by manifest \texttt  {clearance} validation.}}{15}{}\protected@file@percent }
+\newlabel{tab:schemes}{{6}{15}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Prompt Injection Defenses}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Evaluation}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Test methodology}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Unit test coverage}{15}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Unit test inventory.}}{16}{}\protected@file@percent }
+\newlabel{tab:unit}{{7}{16}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Adversarial pen-test coverage}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Bugs found and fixed during construction}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}Aggregate result}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Related Work}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Multi-channel AI assistants.}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Information-flow control.}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Prompt-injection research.}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Audit logs.}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {10}Limitations and Gaps the Deploying Organization Owns}{18}{}\protected@file@percent }
+\newlabel{sec:gaps}{{10}{18}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {11}Conclusion}{18}{}\protected@file@percent }
+\bibcite{NIST80053r5}{1}
+\bibcite{NISTFIPS1403}{2}
+\bibcite{NISTCSF2}{3}
+\bibcite{NIST800171}{4}
+\bibcite{ISO27001}{5}
+\bibcite{SOC2}{6}
+\bibcite{GDPR}{7}
+\bibcite{HIPAASecurityRule}{8}
+\bibcite{PCIDSSv4}{9}
+\bibcite{BellLaPadula1976}{10}
+\bibcite{Loscocco2001}{11}
+\bibcite{HaberStornetta1991}{12}
+\bibcite{RFC8032}{13}
+\bibcite{Crosby2009}{14}
+\bibcite{AnthropicMCP2024}{15}
+\bibcite{Kwon2023vLLM}{16}
+\bibcite{Zheng2023SGLang}{17}
+\bibcite{Ollama}{18}
+\bibcite{LMStudio}{19}
+\bibcite{Greshake2023}{20}
+\bibcite{Perez2022}{21}
+\bibcite{Schulhoff2023}{22}
+\bibcite{SPIFFE}{23}
+\bibcite{NodeTest}{24}
+\bibcite{OpenClawRepo}{25}
+\bibcite{NIST_AI_RMF}{26}
+\bibcite{ISO42001}{27}
+\bibcite{EUAIAct}{28}
+\bibcite{OWASP_LLM}{29}
+\bibcite{MITREATLAS}{30}
+\bibcite{Carlini2021}{31}
+\bibcite{Nasr2023}{32}
+\bibcite{NISTSSDF}{33}
+\bibcite{CISA_AI}{34}
+\bibcite{MoffattAirCanada}{35}
+\bibcite{Biba1977}{36}
+\bibcite{ClarkWilson1987}{37}
+\bibcite{BrewerNash1989}{38}
+\bibcite{Sandhu1996}{39}
+\bibcite{NIST800162}{40}
+\bibcite{SaltzerSchroeder1975}{41}
+\bibcite{Gray1981}{42}
+\bibcite{LibreChat}{43}
+\bibcite{OpenWebUI}{44}
+\bibcite{AnythingLLM}{45}
+\bibcite{JanAI}{46}
+\bibcite{LobeChat}{47}
+\bibcite{AutoGen}{48}
+\bibcite{LangChain}{49}
+\bibcite{NeMoGuardrails}{50}
+\bibcite{LlamaGuard}{51}
+\bibcite{LakeraGuard}{52}
+\bibcite{Shamir1979}{53}
+\bibcite{LamportShostakPease1982}{54}
+\bibcite{NIST800152}{55}
+\bibcite{EnclawedOSSRepo}{56}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Adversarial test inventory. Each row covers a distinct attack family; cases that document a known limitation are noted as ``documented'' or ``gap'' so the deploying organization knows where defense-in-depth is required.}}{23}{}\protected@file@percent }
+\newlabel{tab:pen}{{8}{23}{}{}{}}
+\gdef \@abspage@last{23}

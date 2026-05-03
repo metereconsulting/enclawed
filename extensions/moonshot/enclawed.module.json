@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "moonshot",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "zAPY4DhWGIIMomXvrxlOeGNJVLhn4VS+B1kpFLksr6gLaGTDLV3lXVEOTdzEVbAp8xG/Y4dNFliI3QmxuZ9DBg=="
+}

@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "litellm",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "SaGSrQB8uhGRoNv5O2j09q7KFEWbGbyyOFhK5FLGG3Eb0OivpL1aINOGDpn38p4GBUvedSZjkgg6PLv7IiJ+Bw=="
+}

@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "vydra",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "V8ZJY3yfImhFxpn9GAb/hPrxaO4bl7Uz1i+odkVyta9S4wM+g22NInkGCXjSr0X1HI/tEev9EcdAB3CThPlnDw=="
+}

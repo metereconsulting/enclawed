@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "vercel-ai-gateway",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "HhCCMOoU8e2RcSuOp+KSH+auH0f+ZXBVrDpcoY7/w/wsZccosYycqHMqCwHGDhtxILwpEDPT0N4KGnOmqCoNAQ=="
+}

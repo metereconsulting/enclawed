@@ -1,0 +1,15 @@
+{
+  "v": 1,
+  "id": "feishu",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "publish",
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "jxZvZl9r9wAeHhfvJLg7cJ8lbT74kfIk4TpL+QCokt3yiTblqGRCbAMjXemdX2TpV3aQQYPWnHczRG8JA8TRDg=="
+}

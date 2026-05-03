@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "kimi-coding",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "HAp1slm7cobBuE60tVEW3WfK7m2EeK+7+7AOv9ySZAw3x/5udhLbxD9LcJ1nZVG30b4gYfNj8xFL2avlAA/tBg=="
+}

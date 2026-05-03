@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "webhooks",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "RPscQ5700xPX31Ot6/OEWez64a58hyQ7yncmsC39JCva71+5oMz3D2ICFHU0Y0GomdI0NMPj58xG3N7PCZMVCA=="
+}

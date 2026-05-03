@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "zai",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "uMAQ9szpIJSTA5YxkwAeOA+Ja1bR6E9EizxmWYlXIqTsDFiYa4jO8xlCP/CvQsNKSG+4te6jqEYuupP8ZeLtBA=="
+}

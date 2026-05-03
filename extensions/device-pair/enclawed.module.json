@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "device-pair",
+  "publisher": "enclawed-bundled",
+  "version": "0.0.0",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "vAdVD2tYV1aLVGYYoqm3I99eDdt4viYSJ4KdJCpn/rRcMS8ftwGgrFOyWQURrfUnxE51h2uL9/IG04SMj7kgCg=="
+}

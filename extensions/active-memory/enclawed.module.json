@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "active-memory",
+  "publisher": "enclawed-bundled",
+  "version": "0.0.0",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "49DbHchGaKqOM+9sKhhU8+GMFJXJX8LFNGnUdxZ25AN/RviJTjli1G0qsA3hDiCpy6fM2dX3lh4SdT91km8oDQ=="
+}

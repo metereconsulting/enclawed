@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "mattermost",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "publish"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "tXxY74o51WwnduRH1h1bXk3yVEM17UJ7VudqdYfWPafVLQsj3+oHRdsnPk80bAy0leBZkTpN6s8e/QKOmPD+Cw=="
+}

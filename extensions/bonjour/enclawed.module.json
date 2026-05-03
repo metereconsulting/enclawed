@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "bonjour",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "74KqKaywNtIh2GnKYN6NZVfGai/6QIX8F1T8tn010MVJV5M1l5/2XT7oMFEuIGEZP2pT3IpZFWjIfkfdvWQCCw=="
+}

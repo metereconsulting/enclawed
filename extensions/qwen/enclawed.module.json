@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "qwen",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "5AgluKJlktKH8yrRS4XPzEsxbuiM5KyE9E1Ala8u+wQvx9tielpjrhjzt+RMA1pm59oSYz65SQoxY+CvKB4TDg=="
+}

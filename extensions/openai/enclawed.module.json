@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "openai",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "Pdoephz87cPu6pnpObh/A3dbq5AdTOFSfZeAH2qVbxUn933D160NKRWGWMnZ6j4uH5XcDKBAl4Ec2J91l9kTBA=="
+}

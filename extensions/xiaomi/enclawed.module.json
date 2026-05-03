@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "xiaomi",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "/6ydvFxzteC/Z+lwIIYCZNE9BwNRPrkN6XBLKxqUktfVKhmkQRw5y7MJtTUXKhIsyt0F0JeWXy1KLahWK6LNDw=="
+}
