@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "voyage",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "ZBHACk70qGnWCrIa9i6XQrZ25a6hjNx7DG9ZqKIZu5Gd22pv7jHUtb8L+IREIlRQ1hidTOgN3J12q0fv5oWXBA=="
+}

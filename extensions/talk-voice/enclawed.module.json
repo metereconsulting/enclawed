@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "talk-voice",
+  "publisher": "enclawed-bundled",
+  "version": "0.0.0",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "Va7KRkFg883RNbUQDdAfShKqfIQ4XOoDXkZGvCJ1ZLjdS9DiGsy7IyYPfEJClWloqyjJtq/1KXaHQzSFhcyHAA=="
+}

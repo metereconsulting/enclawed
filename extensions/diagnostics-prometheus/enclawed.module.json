@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "diagnostics-prometheus",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "GX572CgoXrlG9pu/sO0vf6rVglDBIs76m9Y/z/odw2y63NYZbRw4Gpn9daUkbzS7XD9zw3D+Rtrmbd4pU3bQDg=="
+}

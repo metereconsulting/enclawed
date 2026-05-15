@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "tts-local-cli",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "aeOkR796ACUOSiw4OiJcPefv9iLszvszh4346GRK65PFTZMwmanaOiGoiski+9q1yOLoZ2HtPb1TRqboSxHyDQ=="
+}

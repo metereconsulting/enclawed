@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "memory-lancedb",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "vWyREC3XjFsbjXQNr76QvmQPhut1TxXCpPXLk6rkRI3NgZZnyWLEOVewOkNzyVmNxS+Eorwz6+3AgJ3qMOkMDQ=="
+}

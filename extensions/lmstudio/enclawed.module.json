@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "lmstudio",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "Ro2N8l3QoPtAH+BJSbYQSz/0x84Prk55YK3AXiCwWianYnTc0OTT4VfSYBo5qt5Mkave0H/92ZjI3yCbkpjhAQ=="
+}

@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "browser",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "yIxk6kcJ8N5iDO+6nHh8HhnWoWw9D+0LOhRmxi0nyj39OeIwIITGi6HAM6mSpAsxShmxkM9SV3fUtngN4ojiDg=="
+}

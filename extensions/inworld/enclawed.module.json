@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "inworld",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "pxl5w1/Lm9PC6xE1+tcSzxtMl0gnVw2eVXhso1U5/TJ+FON9yqpx4JivAiP4V/sWRftk6YOAOb+flk3TZTkMCA=="
+}
