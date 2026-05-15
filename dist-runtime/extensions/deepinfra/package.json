@@ -1,0 +1,12 @@
+{
+  "name": "@enclawed/deepinfra-provider",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw DeepInfra provider plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

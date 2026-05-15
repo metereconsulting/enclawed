@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "venice",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "lP9E7t+ZHX6aYF0OmZryDexY5XrkI+MtmkqP7BuGniewK/O1ck1SW4YnfYcYOtKRzOz9DanK9butHJRMN4mAAQ=="
+}

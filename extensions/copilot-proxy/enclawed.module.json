@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "copilot-proxy",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "bHBaCflquL9dm3UefIh/wkn139OepW6afQ1j5KmoZB1yQLIPZsWgcRl/JyGTfz76b4cx0ylCqZqPy6oVEM6SAA=="
+}

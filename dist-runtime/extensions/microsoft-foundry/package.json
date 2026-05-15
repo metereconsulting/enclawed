@@ -1,0 +1,12 @@
+{
+  "name": "@enclawed/microsoft-foundry",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw Microsoft Foundry provider plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

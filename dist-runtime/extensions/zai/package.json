@@ -1,0 +1,12 @@
+{
+  "name": "@enclawed/zai-provider",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw Z.AI provider plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "volcengine",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "7nz3e3D+9+4SPLgxSpl3uQi329i2UnD2rrZJ8KPQtywvpzJZSD36RnUa61243Cjj0FDcYRXGNJZ4COzdd6XdAw=="
+}

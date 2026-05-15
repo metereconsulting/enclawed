@@ -1,0 +1,12 @@
+{
+  "name": "@enclawed/runway-provider",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw Runway video provider plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

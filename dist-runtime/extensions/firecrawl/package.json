@@ -1,0 +1,15 @@
+{
+  "name": "@enclawed/firecrawl-plugin",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw Firecrawl plugin",
+  "type": "module",
+  "dependencies": {
+    "typebox": "1.1.37"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

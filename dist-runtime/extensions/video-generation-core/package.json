@@ -1,0 +1,7 @@
+{
+  "name": "@enclawed/video-generation-core",
+  "version": "2026.4.16",
+  "private": true,
+  "description": "OpenClaw video generation runtime package",
+  "type": "module"
+}

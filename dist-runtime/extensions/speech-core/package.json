@@ -1,0 +1,7 @@
+{
+  "name": "@enclawed/speech-core",
+  "version": "2026.4.16",
+  "private": true,
+  "description": "OpenClaw speech runtime package",
+  "type": "module"
+}

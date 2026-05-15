@@ -1,0 +1,12 @@
+{
+  "name": "@enclawed/duckduckgo-plugin",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw DuckDuckGo plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

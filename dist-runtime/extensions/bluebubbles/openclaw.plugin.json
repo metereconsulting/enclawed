@@ -1,0 +1,14 @@
+{
+  "id": "bluebubbles",
+  "activation": {
+    "onStartup": false
+  },
+  "channels": [
+    "bluebubbles"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

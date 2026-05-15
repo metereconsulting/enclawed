@@ -1,0 +1,12 @@
+{
+  "name": "@enclawed/elevenlabs-speech",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw ElevenLabs speech plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

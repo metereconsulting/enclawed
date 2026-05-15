@@ -1,0 +1,12 @@
+{
+  "name": "@enclawed/exa-plugin",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw Exa plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

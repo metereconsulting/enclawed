@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "memory-core",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "dweG/YJWXIRpK5kyl63Tm2XdL1dQtxTVzUG37Bx9j+2XNSw19pDTb/LgvA3S4f3ZXIvSp59KfChI8ZHv4fLzAQ=="
+}

@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "lobster",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "MSdddxRfYXfqPdreAopJOYVq1BsUtFTL1QagKQoWHi35PWHAdnNhRAYSXz4NnWxNRwe2D+EOSjbS5+B5K3APCQ=="
+}

@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "arcee",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "8IMSYLcWB8xFdCy4rgswbMdIS01LFPD5FkkfC+PwY5Eg4uGvvOlwWzZaZsO4Qh4cx0UZMdJ5ILCiqY9m9ukWBQ=="
+}

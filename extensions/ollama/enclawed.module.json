@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "ollama",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.16",
+  "clearance": "internal",
+  "capabilities": [
+    "tool.invoke"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "miy2b2I8M4+/zbVWJ6tzoc07b2GsiUrRN17hic00Z0jUl+h58VQB7whb9lLTEplFJnR7FTNByf77HePHy5eSAA=="
+}

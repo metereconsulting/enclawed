@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "id": "microsoft",
+  "publisher": "enclawed-bundled",
+  "version": "2026.4.25",
+  "clearance": "internal",
+  "capabilities": [
+    "fs.read"
+  ],
+  "signerKeyId": "enclawed-bundled-dev-2026",
+  "verification": "tested",
+  "netAllowedHosts": [],
+  "signature": "DN/PK3KeyublRwf/ocPwzPsXsQ7C0ofeCNkP8ECFl1+FRRFhmR+eRBhwC5GI3A3XM63VbfEBzo5AqJF4MaAZBA=="
+}

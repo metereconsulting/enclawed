@@ -1,0 +1,12 @@
+{
+  "name": "@enclawed/gradium-speech",
+  "version": "2026.4.25",
+  "private": true,
+  "description": "OpenClaw Gradium speech plugin",
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ]
+  }
+}

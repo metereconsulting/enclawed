@@ -1,0 +1,49 @@
+{
+  "name": "@enclawed/qqbot",
+  "version": "2026.4.27",
+  "private": false,
+  "description": "OpenClaw QQ Bot channel plugin",
+  "type": "module",
+  "dependencies": {
+    "@tencent-connect/qqbot-connector": "^1.1.0",
+    "mpg123-decoder": "^1.0.3",
+    "silk-wasm": "^3.7.1",
+    "ws": "^8.20.0",
+    "zod": "^4.4.1"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ],
+    "setupEntry": "./setup-entry.js",
+    "channel": {
+      "id": "qqbot",
+      "label": "QQ Bot",
+      "selectionLabel": "QQ Bot (Official API)",
+      "detailLabel": "QQ Bot",
+      "docsPath": "/channels/qqbot",
+      "docsLabel": "qqbot",
+      "blurb": "connect to QQ via official QQ Bot API with group chat and direct message support.",
+      "systemImage": "bubble.left.and.bubble.right"
+    },
+    "install": {
+      "npmSpec": "@enclawed/qqbot",
+      "localPath": "extensions/qqbot",
+      "defaultChoice": "npm",
+      "minHostVersion": ">=2026.4.10"
+    },
+    "compat": {
+      "pluginApi": ">=2026.4.27"
+    },
+    "build": {
+      "openclawVersion": "2026.4.27"
+    },
+    "bundle": {
+      "includeInCore": false
+    },
+    "release": {
+      "publishToClawHub": true,
+      "publishToNpm": true
+    }
+  }
+}
